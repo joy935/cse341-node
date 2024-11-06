@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     res.send("Hello World");
 });
 
-// CORS middleware
+// professional route
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     next(); 
